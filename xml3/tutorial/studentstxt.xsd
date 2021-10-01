@@ -5,10 +5,18 @@
    Tutorial Case
 
    Austin Technical College information technology schema
-   Author:  
-   Date:     
+   Author:           Alejandra Hernandez
+   Date:             10/01/2021
 
    Filename:          students.xsd
    Supporting Files:  students.xml
 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/SMLSchema">
+   <xs:element name="lastName" type="xs:string" />
+   <xs:element name="firstName" type="xs:string" />
+   <xs:element name="dateOfEnrollment" type="xs:string" />
+   <xs:element name="credits" type="xs:string" />
+   <xs:element name="comment" type="xs:string" />
+   
 
+</xs:schema>
