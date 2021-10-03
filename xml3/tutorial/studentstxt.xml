@@ -12,9 +12,8 @@
    Filename:         students.xml
    Supporting Files: students.xsd 
 -->
-<studends xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance”
-         xsi:noNamespaceSchemaLocation=”students.xsd”> 
-<students>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="students.xsd"> 
    <student stuID="SI890-041-02">
       <lastName>Berstein</lastName>
       <firstName>Cynthia</firstName>

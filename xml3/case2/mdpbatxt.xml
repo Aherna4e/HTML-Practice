@@ -5,14 +5,16 @@
    Case Problem 2
 
    MDPBA Competition Roster
-   Author: 
-   Date:   
+   Author: Alejandra Hernandez
+   Date:   10/03/2021
 
    Filename:         mdpba.xml
    Supporting Files: mdpba.xsd
 -->
 
-<bands>
+
+<bands xmlns="http://www.w3.org/2001/XMLSchema-instance"
+            xsinoNamespaceSchemaLocation= "mdpba.xsd">
    <band cid="c0001">
       <name grade="juvenille">School of Celtic Bagpipes &amp; Drumming</name>
       <city>Delafield</city>
